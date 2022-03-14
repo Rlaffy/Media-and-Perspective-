@@ -8,6 +8,6 @@ h1,h2 {
     font-weight: bold;
 }
 table, th, td {
-    border:darkslategray 3px;
+    border: 3px green;
     border-collapse: collapse;
 }
