@@ -9,12 +9,24 @@
     <title>Document</title>
 </head>
 <body>
+    <iframe frameborder = "0" src="Navigation.html" style="margin-right: 8px;" width="100%" ></iframe>
+
+
+
     <h1> Contact Me</h1>
-    <form>
-        <label>Email</label>
-        <input> name="Email"
-        <br/>
-        <label>name</label>
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+
+        <label>Name</label>
         <input>
+        <br>
+        <label>Email</label>
+        <input>
+        <br/>
+        <label>Phone Number</label>
+        <input>
+        <input type="submit" >
+        <input name="send-to" value="rlaferiere@brooklynsteamcenter.org" hidden>
     </form>
+ 
 </body>
