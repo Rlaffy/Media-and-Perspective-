@@ -15,3 +15,47 @@ table, th, td {
     body {
         background-image: url('https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png');
     }
+    input[type=submit] {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #207e03;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        padding: 20px;
+        width: 80px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      input span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      input span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      input:hover span {
+        padding-right: 15px;
+      }
+      
+      input:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+
+      
+
+      
