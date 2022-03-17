@@ -55,7 +55,11 @@ table, th, td {
         right: 0;
       }
 
+.move-right {
+    margin-right: 8px;
+    width:"100%";
 
+}
       
 
       
