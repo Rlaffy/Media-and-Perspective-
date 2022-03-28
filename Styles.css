@@ -60,8 +60,19 @@ table, th, td {
     width:"100%";
 
 }
+.image-format {
+
+float: right; 
+margin-right: 20px; 
+margin-left: 60px;
+}
       
 p {
   font-size: 30px;
 }
-      
+@media screen and (max-width: 480px) { image{
+  float: none 
+}
+  
+
+}
